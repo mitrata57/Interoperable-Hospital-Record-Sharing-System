@@ -42,7 +42,7 @@ class Hospital(models.Model):
     license_number = models.CharField(max_length=100, unique=True)
     city = models.CharField(max_length=100)
 
-    # RSA keypair — to encrypt / drcrypt hospital records 
+    # RSA keypair — to encrypt / decrypt hospital records 
     public_key = models.TextField()
     private_key = models.TextField()  # must be encrypted in production level  #  project -> plain — trade-off 
 

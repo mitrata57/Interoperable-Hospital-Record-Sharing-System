@@ -1,6 +1,4 @@
 """
-records/external_views.py
-
 RECEIVER side of hospital-to-hospital lookups -- the counterpart to
 records/peer_client.py's broadcast_lookup(), which is the CALLER side.
 This is what runs when a PEER hospital's server asks THIS hospital
