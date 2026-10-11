@@ -19,7 +19,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path('me-mitrata-projectko-admin/', admin.site.urls),
     path("api/auth/", include("accounts.urls")),
     path("api/records/", include("records.urls")),
     path("api/consent/", include("access_control.urls")),
